@@ -1,0 +1,7 @@
+job_to_collect_data:
+  description: 'Add any missing email sending schedules'
+  queue: financial_data
+  class: NewHistoricalDataJob
+  every:
+    - '30s'
+    # - :first_in: '10s'
