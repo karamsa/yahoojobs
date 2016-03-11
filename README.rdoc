@@ -20,7 +20,8 @@ Note: For the job of collecting old historical data, just execute this line of c
     /app/jobs/new_historical_data_job.rb (For periodic job)
     /app/models/quote.rb (Model)
     /db/migrate/20160311124710_create_quotes.rb (Migration to create table on db)
-    /lib/tasks/resque.rake (Resque configuration) /config/resque_schedule.yml (Configuration of scheduled jobs)
+    /lib/tasks/resque.rake (Resque configuration) 
+    /config/resque_schedule.yml (Configuration of scheduled jobs)
 
 Of course you will need to add these gems :
 
